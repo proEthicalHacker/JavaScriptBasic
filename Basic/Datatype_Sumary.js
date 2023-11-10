@@ -19,5 +19,9 @@ let userTwo=userOne
 
 userTwo.email="namo@gmail.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack[primitive], heap[non-pri]
