@@ -15,7 +15,7 @@ if (true) {
 
 
 function one(){
-    const username = "hitesh"
+    const username = "denny"
 
     function two(){
         const website = "youtube"
@@ -53,6 +53,9 @@ function addone(num){
 
 
 addTwo(5)
-const addTwo = function(num){
+const addTwo = function(num){ // esme error esliye hai value store hui hai 
     return num + 2
 }
+
+
+
