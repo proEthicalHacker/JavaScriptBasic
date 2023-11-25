@@ -165,6 +165,7 @@ function newGame(message) {
     playGame = true;
   });
 }
+```
 
 
 
