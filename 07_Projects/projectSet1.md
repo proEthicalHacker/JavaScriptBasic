@@ -63,9 +63,17 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `<span>${bmi}</span>`;
   }
 });
+```
+## project 3 digi clock
+```javascript
+const clock = document.getElementById('clock');
+// const clock = document.querySelector('#clock')
 
-
-
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 
 ```
 ## project 4 guss the num
@@ -202,8 +210,31 @@ document.querySelector("#start").addEventListener('click',startCl)
 
 document.querySelector("#stop").addEventListener('click',stopCl)
 
+```
 
+## project 6 keyCode
+```javascript
+const insert = document.getElementById('insert');
 
+window.addEventListener('keydown', (e) => {
+  insert.innerHTML = `
+    <div class='color'>
+    <table>
+    <tr>
+      <th>Key</th>
+      <th>Keycode</th> 
+      <th>Code</th>
+    </tr>
+    <tr>
+      <td>${e.key === ' ' ? 'Space' : e.key}</td>
+      <td>${e.keyCode}</td> 
+      <td>${e.code}</td>
+    </tr>
+    
+  </table>
+    </div>
+  `;
+});
 
 
 ```
